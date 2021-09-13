@@ -1,0 +1,32 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(230, 225, 209);
+    background-color: rgb(20, 26, 33);
+    font-family: 'meslo_lg_m_for_Rgforpowerline';
+}
+
+#cursor {
+    color: rgb(224, 241, 104);
+    animation-duration: 1s;
+    animation-timing-function: steps(2, end);
+    animation-iteration-count: infinite;
+    animation-name: blink;
+}
+
+@keyframes blink {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+    }
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+  }
+
+
