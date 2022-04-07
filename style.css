@@ -29,4 +29,6 @@ body {
     outline: 0px solid transparent;
   }
 
-
+div {
+    margin: 0.5rem 0 0 0.6rem;
+}
